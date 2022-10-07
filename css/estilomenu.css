@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+/*****************************/
+
+#menu{
+	/*margin-left:349px;
+	width:492px;
+	height:41px; 
+    top:-835px;
+        position:relative;
+			color:#FFF;*/
+	 height: 740px;
+    margin: 138px auto;
+    width: 436px;
+
+}
+
+.runing{
+	width:142px;
+	height:41px; 
+	background:url(ima/menu1.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:left;
+	color:#FFF;
+}
+
+.biking{
+	width:142px;
+	height:41px; 
+	background:url(ima/menu1.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:left;
+	color:#FFF !important;
+}
+.runing:hover{
+	width:142px;
+	height:41px; 
+	background:url(ima/menu2.png) no-repeat scroll 0 0 transparent !important;
+}
+
+.biking:hover{
+	width:142px;
+	height:41px; 
+	background:url(ima/menu2.png) no-repeat scroll 0 0 transparent !important;
+}
+#menu a:link
+{
+	text-decoration:none;
+	/*color:#FFF !important;*/
+ 	
+	
+}
+.fondo
+{
+	background:url(ima/background_sports.jpg) no-repeat;
+	 width:790px;
+	 height:975px; 
+}
+
+/******************************/
+
+
